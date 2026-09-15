@@ -2,9 +2,11 @@ import { Heading } from './components/Heading';
 import {Container} from './components/Container'
 import { Logo } from './components/Logo';
 import { Menu } from './components/Menu'
+import { CountDown } from './components/CountDown';
 
 import './styles/theme.css'
 import './styles/global.css'
+
 
 export function App(){
   
@@ -17,7 +19,7 @@ export function App(){
         <Menu></Menu>
       </Container>
       <Container>
-        <Heading>TIMER</Heading>
+        <CountDown></CountDown>
       </Container>
       <Container>
         <Heading>FOOTER</Heading>
