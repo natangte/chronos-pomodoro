@@ -3,6 +3,7 @@ import {Container} from './components/Container'
 import { Logo } from './components/Logo';
 import { Menu } from './components/Menu'
 import { CountDown } from './components/CountDown';
+import { Input } from './components/Input';
 import { Form } from './components/Form'
 
 import './styles/theme.css'
@@ -23,6 +24,7 @@ export function App(){
         <CountDown></CountDown>
       </Container>
       <Container>
+        <Input></Input>
         <Form></Form>
       </Container>
       <Container>

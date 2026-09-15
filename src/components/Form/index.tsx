@@ -2,10 +2,6 @@ import styles from './styles.module.css';
 
 export function Form(){
     return <form className={styles.form} action="">
-        <div className={styles.formRow}>
-            <label htmlFor="input">task</label>
-            <input id='input' type="text" />
-        </div>
 
         <div className={styles.formRow}>
             <p>Lorem ipsum dolor sit amet.</p>
